@@ -1,5 +1,5 @@
 # GamesWeb
-
+Simple web project with angular to reuse code, and makes things more modularized.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
 
 ## Development server

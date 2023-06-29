@@ -1,0 +1,21 @@
+#rodape{
+    color: white;
+}
+#rodape span{
+    padding: 10px 0px;
+    margin-top: 3px;
+}
+#rodape span a:hover{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.219);
+    border-radius: 5px;
+    color: aqua;
+    padding: 5%;
+}
+#rodape span a{
+    color: aqua;
+}
+#creditos{
+    margin:0px auto;
+    font-size: 0.8em;
+}

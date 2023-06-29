@@ -1,0 +1,28 @@
+<nav class="navbar bg-primary px-2">
+  <a class="d-flex" routerLink='' id="linklogo">
+    <span><img class="logo" src="./assets/img/logo.png"></span>
+    <span class="text-light my-3 mx-2">LH Games</span>
+  </a>
+  <!--SPACER-->
+  <span class="example-spacer"></span>
+  <!--SEARCH BAR-->
+  <form class="d-flex mx-2" role="search">
+    <input id="searchbar" class="form-control ms-1" type="search" placeholder="Procurar itens" aria-label="Search">
+    <button type="button" class="btn btn-secondary">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+        viewBox="0 0 16 16">
+        <path
+          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
+        </path>
+      </svg>
+    </button>
+  </form>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Cart button">
+    <mat-icon>shopping_cart</mat-icon>
+  </button>
+  <a routerLink="/login" class="nav-link d-flex">
+    <button mat-icon-button class="example-icon" aria-label="Account button">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+  </a>
+</nav>
