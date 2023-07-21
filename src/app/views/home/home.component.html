@@ -44,13 +44,12 @@
 <section id="linhaProd">
   <div class="container-fluid mt-3 mx-sm-auto"> <!--Placeholder products-->
     <div class="row">
-      <div class="col-sm-2 col-md mb-3">
+      <div class="col-sm-2 col-md mb-3" *ngFor="let produto of produtos">
         <a class="produtobox" style="text-decoration: none;">
           <div id="productDetails">
-            <img src="/../../assets/img/minecraft.jpg">
-            <p class="text-black fw-semibold px-1">Minecraft Java midia digital[PC]</p>
-            <span class="fw-semibold text-decoration-line-through px-1 fs-5" style="color: #FF8B20;">1200R$</span> ->
-            <span class="fs-5 fw-semibold text-success"> 985,00 R$<br></span> <span class="px-1 fs-6 text-success">a
+            <img src="/../../assets/img/{{produto.foto}}">
+            <p class="text-black fw-semibold px-1">{{produto.produto}}</p>
+            <span class="fs-5 fw-semibold text-success px-1">{{produto.preco | currency : 'BRL'}}<br></span> <span class="px-1 fs-6 text-success">a
               vista ou no boleto</span>
             <a class="btn btn-success w-100" href="#buycart">
               COMPRAR | ADD AO CARRINHO
@@ -58,7 +57,8 @@
           </div>
         </a>
       </div>
-      <div class="col-sm-2 col-md mb-3">
+      <!--
+        <div class="col-sm-2 col-md mb-3">
         <a class="produtobox" style="text-decoration: none;">
           <div id="productDetails">
             <img src="/../../assets/img/steamdeck.jpg">
@@ -113,6 +113,7 @@
           </div>
         </a>
       </div>
+      -->
     </div>
   </div> <!--END PLACE PRODUCTS-->
 </section>

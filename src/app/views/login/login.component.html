@@ -15,10 +15,10 @@
             <div class="tab-content"> <!-- PILLS CONTENT TABS INSIDE-->
                 <div id="pills-home" class="tab-pane fade show active">
                     <div class="form px-4 pt-5">
-                        <input type="text" name="" class="form-control" placeholder="Email or telefone">
-                        <input type="password" name="" class="form-control" placeholder="Senha">
+                        <input type="text" name="usuario" class="form-control" [(ngModel)]="usuario" placeholder="Usuário">
+                        <input type="password" name="senha" class="form-control" [(ngModel)]="senha" placeholder="Senha">
                         <div class="d-grid gap-2">
-                            <button class="btn btn-block bg-dark">Entrar</button>
+                            <button class="btn btn-block bg-dark" (click)="fazerLogin()">Entrar</button>
                         </div>
                     </div>
                 </div>

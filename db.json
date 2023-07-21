@@ -1,0 +1,46 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "Jogo1",
+      "descricao": "Descriçao do jogo1",
+      "foto": "jogo1.PNG",
+      "preco": 225.3
+    },
+    {
+      "id": 2,
+      "produto": "Jogo2",
+      "descricao": "Descriçao do jogo2",
+      "foto": "jogo2.PNG",
+      "preco": 245.6
+    },
+    {
+      "id": 3,
+      "produto": "Jogo3",
+      "descricao": "Descriçao do jogo3",
+      "foto": "jogo3.PNG",
+      "preco": 1005.8
+    },
+    {
+      "id": 4,
+      "produto": "Jogo do ano novo",
+      "descricao": "GOTY steam",
+      "foto": "jogo1.PNG",
+      "preco": "146.20"
+    },
+    {
+      "id": 5,
+      "produto": "The witcher 3",
+      "descricao": "melhor jogo que eu já joguei",
+      "foto": "minecraft.jpg",
+      "preco": 224.25
+    },
+    {
+      "id": 6,
+      "produto": "Lego Star Wars",
+      "descricao": "jogo da franquia starwars com a diversão de lego",
+      "foto": "lgStarWArs.jpg",
+      "preco": 115
+    }
+  ]
+}
