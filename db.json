@@ -22,13 +22,6 @@
       "preco": 1005.8
     },
     {
-      "id": 4,
-      "produto": "Jogo do ano novo",
-      "descricao": "GOTY steam",
-      "foto": "jogo1.PNG",
-      "preco": "146.20"
-    },
-    {
       "id": 5,
       "produto": "The witcher 3",
       "descricao": "melhor jogo que eu já joguei",
